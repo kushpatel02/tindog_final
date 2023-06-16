@@ -1,0 +1,133 @@
+  #title{
+    background-color: #ff4c68;
+    color: white;
+  }
+  
+  h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900; 
+  }
+  
+  body{
+    font-family: 'Montserrat';
+  }
+  
+  .container-fluid{
+    padding: 3% 15%;
+  }
+  
+  .navbar-brand{
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .navbar {
+    padding-bottom: 4.5rem;
+  }
+  .nav-item {
+    padding:0px 18px;
+  }
+  .title-img{
+    width:60%;
+    transform: rotate(25deg);
+  }
+  /* features sections */
+  #features{
+    padding: 7% 10%;
+  }
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  h3{
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+  p{
+    color: #8f8f8f;
+  }
+  .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color: #ff4c68;
+  }
+
+/* testimonal section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+/* press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#pricing h3{
+  margin-top: 3%;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.card-header{
+  background-color: #ff4c68;
+}
+@media(max-width:1028px){
+  .phoneimage{
+    transform: rotate(0);
+    margin-top: 30px;
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 4.5rem;
+}
+#cta h3{
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 12%;
+  margin-top: 7%;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  margin-top: 1.5%;
+  padding: 1.5rem;
+}
